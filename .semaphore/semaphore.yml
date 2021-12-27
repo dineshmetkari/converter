@@ -16,7 +16,7 @@ blocks:
             - npm install
             - cache store
             - npm run build --if-present
-            - node add/server.js &
+            - node app/server.js &
             - npm test
   - name: 'Block #2'
     task:
